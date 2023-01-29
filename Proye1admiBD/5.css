@@ -1,0 +1,168 @@
+﻿
+.eliminar {
+    border-radius: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #CFECEF;
+    font-family: Cambria;
+    font-size: 18px;
+    color: black;
+    margin-top: 1px;
+    left: 914px;
+    position: absolute;
+    top: 59px;
+    width: 209px;
+}
+
+
+.panel1 {
+    position: absolute;
+    width: 265px;
+    height: 450px;
+    top: 300px;
+    left: 70px;
+    background-color: white;
+    z-index: 2;
+}
+
+.panel2 {
+    position: absolute;
+    width: 265px;
+    height: 450px;
+    top: 300px;
+    left: 369px;
+    background-color: white;
+}
+
+.panel3 {
+    position: absolute;
+    width: 265px;
+    height: 450px;
+    top: 300px;
+    left: 668px;
+    background-color: white;
+}
+
+.panel6 {
+    position: absolute;
+    width: 265px;
+    height: 450px;
+    top: 300px;
+    left: 1565px;
+    background-color: white;
+}
+
+.panel4 {
+    position: absolute;
+    width: 265px;
+    height: 450px;
+    top: 300px;
+    left: 967px;
+    background-color: white;
+}
+
+.panel5 {
+    position: absolute;
+    width: 265px;
+    height: 450px;
+    top: 300px;
+    left: 1266px;
+    background-color: white;
+}
+
+.panelPrin {
+    width: 1883px;
+    height: 630px;
+    background-color: white;
+    margin-top: -5px;
+    margin-left: 0px;
+    margin-right: 0;
+    z-index: -2;
+}
+
+
+.tituloservicios {
+    font-family: Cambria;
+    font-size: 25px;
+    color: black;
+    margin-left: 10px;
+}
+
+
+.panelmenu1 {
+    position: absolute;
+    width: 335px;
+    height: 629px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: white;
+    z-index: 10;
+    top: 213px;
+    left: 10px;
+}
+
+
+.formTexto2 {
+    margin-left: 15px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #CFECEF;
+    font-family: Cambria;
+    font-size: 18px;
+    color: black;
+    width: 310px;
+}
+
+.formTexto3 {
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: Cambria;
+    font-size: 18px;
+    color: black;
+}
+
+.formTextobotonser {
+    /*width: 100%;*/
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: #CFECEF;
+    padding: 12px;
+    color: white;
+    margin: 0px 0 16px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.formTextobotonser2 {
+    /*width: 100%;*/
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: #CFECEF;
+    padding: 12px;
+    color: white;
+    margin: 0px 0 16px 243px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.botonreporte {
+    position: absolute;
+    margin-left: 1800px;
+    margin-top: 600px;
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: #CFECEF;
+    padding: 12px;
+    color: white;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+    .botonreporte:hover {
+        color: #E1EFF1;
+    }

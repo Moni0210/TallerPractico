@@ -1,0 +1,45 @@
+﻿.col12 {
+    width: 150px;
+    /*height: 50px;*/
+    margin-top: 30px;
+}
+
+.col13 {
+    width: 150px;
+    /*height: 50px;*/
+    margin-top: -35px;
+    display: flex;
+    margin-left: 180px;
+}
+
+.contenedor1 {
+    margin: 60px;
+    width: auto;
+    height: 350px;
+    display: flex;
+}
+
+.footer1 {
+    height: 350px;
+}
+
+.col14 {
+    
+    width: 700px;
+    height: 350px;
+    margin-left: 15px;
+    margin-Top: 30px;
+}
+
+    .col14 img {
+        /*background-color: green;*/
+        margin-Top: -90px;
+        width: 860px;
+        margin-right: auto;
+    }
+
+
+.h1 {
+    font-size: 18px;
+    
+}
