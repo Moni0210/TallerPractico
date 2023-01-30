@@ -78,6 +78,7 @@
                     <br />
                     <asp:Label runat="server" CssClass="alert-danger" ID="lblError"></asp:Label>
                     <br />
+                    <asp:Label ID="Label9" runat="server" Text="Label"></asp:Label>
                     <div class="row">
                         <asp:Button ID="BtnIngresar" CssClass=" form-control btn btn-primary " runat="server" Text="Ingresar" BackColor="#E9ECEF" BorderStyle="None" OnClick="BtnIngresar_Click" />
                         <hr />

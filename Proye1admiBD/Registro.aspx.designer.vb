@@ -185,6 +185,15 @@ Partial Public Class WebForm1
     Protected WithEvents lblError As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
+    '''Control Label9.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents Label9 As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
     '''Control BtnIngresar.
     '''</summary>
     '''<remarks>
