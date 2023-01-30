@@ -67,9 +67,9 @@
 
                         <br />
                         <div class="input-group">
-                            <asp:DropDownList ID="DropDownList1" CssClass="form-control" runat="server" DataSourceID="SqlDataSource1" DataTextField="EstadoUsuario" DataValueField="IdEstadoUsuario"></asp:DropDownList>
+                            <asp:DropDownList ID="DropDownList1" CssClass="form-control" runat="server"></asp:DropDownList>
 
-                            <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AdmiProyecto1ConnectionString %>" SelectCommand="SELECT * FROM [EstadoUsuario]"></asp:SqlDataSource>
+                          <%--  <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:AdmiProyecto1ConnectionString %>" SelectCommand="SELECT * FROM [EstadoUsuario]"></asp:SqlDataSource>--%>
 
                         </div>
 
@@ -85,7 +85,6 @@
                         <asp:Button ID="Button1" CssClass=" form-control btn btn-primary " runat="server" Text="Cancelar" BackColor="#E9ECEF" BorderStyle="None" OnClick="Button1_Click" />
                     </div>
 
-                    <asp:Label runat="server" ID="Label9" Visible="False">1</asp:Label>
                   <%--  <asp:Button ID="Button2" runat="server" Text="Seleccionar datos" CssClass=" form-control btn btn-primary" />--%>
                 </div>
             </div>

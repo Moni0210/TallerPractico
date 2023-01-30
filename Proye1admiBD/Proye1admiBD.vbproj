@@ -93,24 +93,12 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="2.css" />
-    <Content Include="3.css" />
-    <Content Include="4.css" />
-    <Content Include="5.css" />
-    <Content Include="Eliminar usuario.aspx" />
-    <Content Include="CancelarCita.aspx" />
-    <Content Include="AcercaDe.aspx" />
-    <Content Include="Estadisticas.aspx" />
-    <Content Include="iNFORMESEMANA.aspx" />
-    <Content Include="Informes.aspx" />
-    <Content Include="PromediodeCitasAño.aspx" />
-    <Content Include="ListaCitasOrdenadas.aspx" />
-    <Content Include="ListaPorMes.aspx" />
+    <Content Include="Estilos\2.css" />
+    <Content Include="Estilos\3.css" />
+    <Content Include="Estilos\4.css" />
+    <Content Include="Estilos\5.css" />
     <Content Include="Imagenes\Captura.PNG" />
     <Content Include="Imagenes\images.jfif" />
-    <Content Include="ListaCitaspordia.aspx" />
-    <Content Include="Graficocancelaciones.aspx" />
-    <Content Include="Grafico.aspx" />
     <Content Include="Imagenes\buscar3.png" />
     <Content Include="Imagenes\ce63475562f960ede351c2533415adc5.jpg" />
     <Content Include="Imagenes\descarga %281%29.jfif" />
@@ -118,21 +106,9 @@
     <Content Include="Imagenes\descarga.jfif" />
     <Content Include="Imagenes\Doctora_Catherine_Córdova.jpg" />
     <Content Include="Imagenes\portrait-of-a-happy-young-doctor-in-his-clinic-royalty-free-image-1661432441.jpg" />
-    <Content Include="Servicios.aspx" />
-    <Content Include="ListaporFechas.aspx" />
-    <Content Include="ListadeCitas.aspx" />
-    <Content Include="ReservarCita.aspx" />
-    <Content Include="RegistrarHora.aspx" />
     <Content Include="Imagenes\horas.png" />
-    <Content Include="Ingresar.css" />
-    <Content Include="RegistrarHorarios.aspx" />
-    <Content Include="Horarios.aspx" />
-    <Content Include="Mantenimiento_Usuario.aspx" />
-    <Content Include="MantenimientoEmpleados.aspx" />
-    <Content Include="Modificar_EliminarUsuario.aspx" />
-    <Content Include="IniciarSesion.aspx" />
-    <Content Include="Inicio.aspx" />
-    <Content Include="HojaEstilo1.css" />
+    <Content Include="Imagenes\Ingresar.css" />
+    <Content Include="Imagenes\HojaEstilo1.css" />
     <Content Include="Imagenes\editar1.png" />
     <Content Include="Imagenes\eliminar.png" />
     <Content Include="Imagenes\fb.png" />
@@ -143,174 +119,6 @@
     <Content Include="Registro.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Eliminar usuario.aspx.designer.vb">
-      <DependentUpon>Eliminar usuario.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Eliminar usuario.aspx.vb">
-      <DependentUpon>Eliminar usuario.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="CancelarCita.aspx.designer.vb">
-      <DependentUpon>CancelarCita.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CancelarCita.aspx.vb">
-      <DependentUpon>CancelarCita.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="AcercaDe.aspx.designer.vb">
-      <DependentUpon>AcercaDe.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="AcercaDe.aspx.vb">
-      <DependentUpon>AcercaDe.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Estadisticas.aspx.designer.vb">
-      <DependentUpon>Estadisticas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Estadisticas.aspx.vb">
-      <DependentUpon>Estadisticas.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="iNFORMESEMANA.aspx.designer.vb">
-      <DependentUpon>iNFORMESEMANA.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="iNFORMESEMANA.aspx.vb">
-      <DependentUpon>iNFORMESEMANA.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Informes.aspx.designer.vb">
-      <DependentUpon>Informes.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Informes.aspx.vb">
-      <DependentUpon>Informes.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="PromediodeCitasAño.aspx.designer.vb">
-      <DependentUpon>PromediodeCitasAño.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PromediodeCitasAño.aspx.vb">
-      <DependentUpon>PromediodeCitasAño.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="ListaCitasOrdenadas.aspx.designer.vb">
-      <DependentUpon>ListaCitasOrdenadas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ListaCitasOrdenadas.aspx.vb">
-      <DependentUpon>ListaCitasOrdenadas.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="ListaPorMes.aspx.designer.vb">
-      <DependentUpon>ListaPorMes.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ListaPorMes.aspx.vb">
-      <DependentUpon>ListaPorMes.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="ListaCitaspordia.aspx.designer.vb">
-      <DependentUpon>ListaCitaspordia.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ListaCitaspordia.aspx.vb">
-      <DependentUpon>ListaCitaspordia.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Graficocancelaciones.aspx.designer.vb">
-      <DependentUpon>Graficocancelaciones.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Graficocancelaciones.aspx.vb">
-      <DependentUpon>Graficocancelaciones.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Grafico.aspx.designer.vb">
-      <DependentUpon>Grafico.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Grafico.aspx.vb">
-      <DependentUpon>Grafico.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Servicios.aspx.designer.vb">
-      <DependentUpon>Servicios.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Servicios.aspx.vb">
-      <DependentUpon>Servicios.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="ListaporFechas.aspx.designer.vb">
-      <DependentUpon>ListaporFechas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ListaporFechas.aspx.vb">
-      <DependentUpon>ListaporFechas.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="ListadeCitas.aspx.designer.vb">
-      <DependentUpon>ListadeCitas.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ListadeCitas.aspx.vb">
-      <DependentUpon>ListadeCitas.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="ReservarCita.aspx.designer.vb">
-      <DependentUpon>ReservarCita.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="ReservarCita.aspx.vb">
-      <DependentUpon>ReservarCita.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="RegistrarHora.aspx.designer.vb">
-      <DependentUpon>RegistrarHora.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="RegistrarHora.aspx.vb">
-      <DependentUpon>RegistrarHora.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="RegistrarHorarios.aspx.designer.vb">
-      <DependentUpon>RegistrarHorarios.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="RegistrarHorarios.aspx.vb">
-      <DependentUpon>RegistrarHorarios.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Horarios.aspx.designer.vb">
-      <DependentUpon>Horarios.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Horarios.aspx.vb">
-      <DependentUpon>Horarios.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Mantenimiento_Usuario.aspx.designer.vb">
-      <DependentUpon>Mantenimiento_Usuario.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Mantenimiento_Usuario.aspx.vb">
-      <DependentUpon>Mantenimiento_Usuario.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="MantenimientoEmpleados.aspx.designer.vb">
-      <DependentUpon>MantenimientoEmpleados.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="MantenimientoEmpleados.aspx.vb">
-      <DependentUpon>MantenimientoEmpleados.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Modificar_EliminarUsuario.aspx.designer.vb">
-      <DependentUpon>Modificar_EliminarUsuario.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Modificar_EliminarUsuario.aspx.vb">
-      <DependentUpon>Modificar_EliminarUsuario.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="IniciarSesion.aspx.designer.vb">
-      <DependentUpon>IniciarSesion.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="IniciarSesion.aspx.vb">
-      <DependentUpon>IniciarSesion.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Inicio.aspx.designer.vb">
-      <DependentUpon>Inicio.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Inicio.aspx.vb">
-      <DependentUpon>Inicio.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -329,13 +137,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
-    <Compile Include="PaginaMaestra.Master.designer.vb">
-      <DependentUpon>PaginaMaestra.Master</DependentUpon>
-    </Compile>
-    <Compile Include="PaginaMaestra.Master.vb">
-      <DependentUpon>PaginaMaestra.Master</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
@@ -364,7 +165,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
-    <Content Include="PaginaMaestra.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
