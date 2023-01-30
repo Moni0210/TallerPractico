@@ -1,7 +1,7 @@
 ﻿Imports System.Data.SqlClient
 
 Public Class Conexion
-    Dim String_Conexion = "Data Source=LAPTOP-59A9TSFS\INSTANCIA3;Initial Catalog=AdmiProyecto1;Integrated Security=True"
+    Dim String_Conexion = "Data Source=tiusr2pl.cuc-carrera-ti.ac.cr\MSSQLSERVER2019;Initial Catalog=tiusr2pl_agenda_g1; User ID=grupo1_ti; Password=holamundo"
 
     Public conexion As SqlConnection
     Dim mi_Dataset As New DataSet
