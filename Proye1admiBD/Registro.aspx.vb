@@ -36,9 +36,6 @@ Public Class WebForm1
             lblError.Text = "Error agregar los datos:  " + ex.Message
         End Try
 
-
-
-
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
