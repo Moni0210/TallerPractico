@@ -39,7 +39,7 @@ Public Class WebForm1
     End Sub
 
     Protected Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        Response.Redirect("Inicio.aspx")
+        Response.Redirect("Consultar.aspx")
     End Sub
 
 
