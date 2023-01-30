@@ -19,7 +19,7 @@ Public Class Consultar
             Dim String_Conexion = "Data Source=tiusr2pl.cuc-carrera-ti.ac.cr\MSSQLSERVER2019;Initial Catalog=tiusr2pl_agenda_g1; User ID=grupo1_ti; Password=holamundo"
             Try
                 conexion = New SqlConnection(String_Conexion)
-                cmd = New SqlCommand("[sp_leer_empleado", conexion)
+                cmd = New SqlCommand("SP_consultar_usuarios", conexion)
                 cmd.CommandType = System.Data.CommandType.StoredProcedure
                 conexion.Open()
                 da = New SqlDataAdapter(cmd)
