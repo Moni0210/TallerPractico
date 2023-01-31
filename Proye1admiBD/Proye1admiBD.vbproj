@@ -93,6 +93,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="angelpereiracampos.aspx" />
     <Content Include="Consultar.aspx" />
     <Content Include="Estilos\2.css" />
     <Content Include="Estilos\3.css" />
@@ -117,16 +118,31 @@
     <Content Include="Imagenes\lg-850-casos-clinicos-dermatologia.jpg" />
     <Content Include="Imagenes\yb.png" />
     <Content Include="nathaliaramirez.aspx" />
+    <Content Include="Jostin_aguero_castro.aspx" />
     <Content Include="Taller.aspx" />
     <Content Include="Web.config" />
     <Content Include="Registro.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="angelpereiracampos.aspx.designer.vb">
+      <DependentUpon>angelpereiracampos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="angelpereiracampos.aspx.vb">
+      <DependentUpon>angelpereiracampos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="Consultar.aspx.designer.vb">
       <DependentUpon>Consultar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Consultar.aspx.vb">
       <DependentUpon>Consultar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Jostin_aguero_castro.aspx.designer.vb">
+      <DependentUpon>Jostin_aguero_castro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jostin_aguero_castro.aspx.vb">
+      <DependentUpon>Jostin_aguero_castro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
