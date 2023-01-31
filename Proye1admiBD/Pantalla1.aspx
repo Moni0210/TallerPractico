@@ -1,6 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Pantalla1.aspx.vb" Inherits="Proye1admiBD.Pantalla1" %>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">

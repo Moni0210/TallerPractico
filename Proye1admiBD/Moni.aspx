@@ -1,6 +1,4 @@
-﻿<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Moni.aspx.vb" Inherits="Proye1admiBD.Moni" %>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
