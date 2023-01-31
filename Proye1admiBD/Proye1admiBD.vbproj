@@ -93,6 +93,7 @@
     <Import Include="System.Web.UI.HtmlControls" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Darrem.aspx" />
     <Content Include="Estilos\2.css" />
     <Content Include="Estilos\3.css" />
     <Content Include="Estilos\4.css" />
@@ -119,6 +120,13 @@
     <Content Include="Registro.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Darrem.aspx.designer.vb">
+      <DependentUpon>Darrem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Darrem.aspx.vb">
+      <DependentUpon>Darrem.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
