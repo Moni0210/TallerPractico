@@ -47,7 +47,7 @@
                         <br />
                         <div class="input-group">
                             <asp:Label ID="Label4" CssClass="form-control" runat="server" Text="Fecha de Nacimiento:"></asp:Label>
-                            <asp:TextBox ID="tbFecha" CssClass="form-control" runat="server" TextMode="Date"></asp:TextBox>
+                            <asp:TextBox ID="tbFecha" CssClass="form-control" runat="server" TextMode="Date" placeholder="Digite la fecha"></asp:TextBox>
                         </div>
                         <br />
                         <div class="input-group">
@@ -57,7 +57,7 @@
                         <br />
                         <div class="input-group">
                             <asp:Label ID="Label5" CssClass="form-control" runat="server" Text="Telefono:"></asp:Label>
-                            <asp:TextBox ID="TbTelefono" CssClass="form-control" runat="server" placeholder="ej. 86984387"></asp:TextBox>
+                            <asp:TextBox ID="TbTelefono" CssClass="form-control" runat="server" placeholder="ej. 86984387" ></asp:TextBox>
                         </div>
                         <br />
                         <div class="input-group">
