@@ -116,7 +116,6 @@
     <Content Include="Imagenes\iconos - copia %282%29.png" />
     <Content Include="Imagenes\lg-850-casos-clinicos-dermatologia.jpg" />
     <Content Include="Imagenes\yb.png" />
-    <Content Include="moni.aspx" />
     <Content Include="Web.config" />
     <Content Include="Registro.aspx" />
   </ItemGroup>
@@ -126,13 +125,6 @@
     </Compile>
     <Compile Include="Consultar.aspx.vb">
       <DependentUpon>Consultar.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="moni.aspx.designer.vb">
-      <DependentUpon>moni.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="moni.aspx.vb">
-      <DependentUpon>moni.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
