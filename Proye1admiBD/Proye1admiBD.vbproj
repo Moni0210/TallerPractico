@@ -117,6 +117,7 @@
     <Content Include="Imagenes\iconos - copia %282%29.png" />
     <Content Include="Imagenes\lg-850-casos-clinicos-dermatologia.jpg" />
     <Content Include="Imagenes\yb.png" />
+    <Content Include="Jostin_aguero_castro.aspx" />
     <Content Include="Taller.aspx" />
     <Content Include="Web.config" />
     <Content Include="Registro.aspx" />
@@ -134,6 +135,13 @@
     </Compile>
     <Compile Include="Consultar.aspx.vb">
       <DependentUpon>Consultar.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Jostin_aguero_castro.aspx.designer.vb">
+      <DependentUpon>Jostin_aguero_castro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Jostin_aguero_castro.aspx.vb">
+      <DependentUpon>Jostin_aguero_castro.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
