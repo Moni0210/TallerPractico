@@ -47,7 +47,7 @@
                         <br />
                         <div class="input-group">
                             <asp:Label ID="Label4" CssClass="form-control" runat="server" Text="Fecha de Nacimiento:"></asp:Label>
-                            <asp:TextBox ID="tbFecha" CssClass="form-control" runat="server" TextMode="Date"></asp:TextBox>
+                            <asp:TextBox ID="tbFecha" CssClass="form-control" runat="server" TextMode="Date" placeholder="Digite la fecha"></asp:TextBox>
                         </div>
                         <br />
                         <div class="input-group">
@@ -57,7 +57,7 @@
                         <br />
                         <div class="input-group">
                             <asp:Label ID="Label5" CssClass="form-control" runat="server" Text="Telefono:"></asp:Label>
-                            <asp:TextBox ID="TbTelefono" CssClass="form-control" runat="server" placeholder="ej. 86984387"></asp:TextBox>
+                            <asp:TextBox ID="TbTelefono" CssClass="form-control" runat="server" placeholder="ej. 86984387" ></asp:TextBox>
                         </div>
                         <br />
                         <div class="input-group">
@@ -84,6 +84,7 @@
                         <hr />
 
                         <asp:Button ID="Button1" CssClass=" form-control btn btn-primary " runat="server" Text="Consultar" BackColor="#E9ECEF" BorderStyle="None" OnClick="Button1_Click" />
+                        <asp:Button ID="Button2" CssClass=" form-control btn btn-primary " runat="server" Text="Consultar información" BackColor="#E9ECEF" BorderStyle="None" OnClick="Button1_Click" />
                     </div>
 
                   <%--  <asp:Button ID="Button2" runat="server" Text="Seleccionar datos" CssClass=" form-control btn btn-primary" />--%>

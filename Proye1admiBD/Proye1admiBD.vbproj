@@ -117,6 +117,7 @@
     <Content Include="Imagenes\lg-850-casos-clinicos-dermatologia.jpg" />
     <Content Include="Imagenes\yb.png" />
     <Content Include="Jostin.aspx" />
+    <Content Include="Pantalla1.aspx" />
     <Content Include="Web.config" />
     <Content Include="Registro.aspx" />
   </ItemGroup>
@@ -153,6 +154,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pantalla1.aspx.designer.vb">
+      <DependentUpon>Pantalla1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pantalla1.aspx.vb">
+      <DependentUpon>Pantalla1.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
