@@ -117,6 +117,7 @@
     <Content Include="Imagenes\lg-850-casos-clinicos-dermatologia.jpg" />
     <Content Include="Imagenes\yb.png" />
     <Content Include="Jostin.aspx" />
+    <Content Include="Moni.aspx" />
     <Content Include="Pantalla1.aspx" />
     <Content Include="Web.config" />
     <Content Include="Registro.aspx" />
@@ -127,13 +128,6 @@
     </Compile>
     <Compile Include="Consultar.aspx.vb">
       <DependentUpon>Consultar.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
-    <Compile Include="Jostin.aspx.designer.vb">
-      <DependentUpon>Jostin.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Jostin.aspx.vb">
-      <DependentUpon>Jostin.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
