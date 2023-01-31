@@ -116,6 +116,7 @@
     <Content Include="Imagenes\iconos - copia %282%29.png" />
     <Content Include="Imagenes\lg-850-casos-clinicos-dermatologia.jpg" />
     <Content Include="Imagenes\yb.png" />
+    <Content Include="nathaliaramirez.aspx" />
     <Content Include="Taller.aspx" />
     <Content Include="Web.config" />
     <Content Include="Registro.aspx" />
@@ -146,6 +147,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="nathaliaramirez.aspx.designer.vb">
+      <DependentUpon>nathaliaramirez.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nathaliaramirez.aspx.vb">
+      <DependentUpon>nathaliaramirez.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="Registro.aspx.designer.vb">
       <DependentUpon>Registro.aspx</DependentUpon>
