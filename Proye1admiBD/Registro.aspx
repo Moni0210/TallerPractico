@@ -84,6 +84,7 @@
                         <hr />
 
                         <asp:Button ID="Button1" CssClass=" form-control btn btn-primary " runat="server" Text="Consultar" BackColor="#E9ECEF" BorderStyle="None" OnClick="Button1_Click" />
+                        <asp:Button ID="Button2" CssClass=" form-control btn btn-primary " runat="server" Text="Consultar información" BackColor="#E9ECEF" BorderStyle="None" OnClick="Button1_Click" />
                     </div>
 
                   <%--  <asp:Button ID="Button2" runat="server" Text="Seleccionar datos" CssClass=" form-control btn btn-primary" />--%>
