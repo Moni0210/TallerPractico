@@ -31,13 +31,13 @@
                         <br />
                         <div class="input-group">
                             <asp:Label ID="Label1" CssClass="form-control" runat="server" Text="Nombres:"></asp:Label>
-                            <asp:TextBox ID="tbNombres" CssClass="form-control" runat="server" placeholder="ej. Monica"></asp:TextBox>
+                            <asp:TextBox ID="tbNombres" CssClass="form-control" runat="server" placeholder="ej.Nombre"></asp:TextBox>
                         </div>
 
                         <br />
                         <div class="input-group">
                             <asp:Label ID="Label2" CssClass="form-control" runat="server" Text="Primer Apellido:"></asp:Label>
-                            <asp:TextBox ID="tbApellidos1" CssClass="form-control" runat="server" placeholder="ej. Calderon"></asp:TextBox>
+                            <asp:TextBox ID="tbApellidos1" CssClass="form-control" runat="server" placeholder="ej.Apellido"></asp:TextBox>
                         </div>
                         <br />
                         <div class="input-group">
