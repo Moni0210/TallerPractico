@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Consultar.aspx" />
+    <Content Include="Darrem.aspx" />
     <Content Include="Estilos\2.css" />
     <Content Include="Estilos\3.css" />
     <Content Include="Estilos\4.css" />
@@ -121,13 +122,6 @@
     <Content Include="Registro.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Consultar.aspx.designer.vb">
-      <DependentUpon>Consultar.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Consultar.aspx.vb">
-      <DependentUpon>Consultar.aspx</DependentUpon>
-      <SubType>ASPXCodebehind</SubType>
-    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
